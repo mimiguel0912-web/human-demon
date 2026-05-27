@@ -19,11 +19,12 @@ jobs:
           java-version: 21
 
       - name: Build
-        run: mvn clean packag
-e
+        run: mvn clean package
+
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
           name: plugin-jar
-          path: target/*.jar
+          path: target/HumanDemon-1.0.jar
+
 
