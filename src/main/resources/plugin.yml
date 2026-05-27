@@ -1,0 +1,58 @@
+name: HumanDemon
+version: 1.0
+main: com.humandemon.Main
+api-version: 1.21
+author: MiguelCapivara
+
+commands:
+
+  lista:
+    description: Lista comandos
+
+  ajuda:
+    description: Ajuda plugin
+
+  panel:
+    description: Painel staff
+
+  apc:
+    description: Aparição cinematográfica
+
+  freeze:
+    description: Congela jogador
+
+  vanish:
+    description: Invisibilidade
+
+  staffmode:
+    description: Modo staff
+
+  inspect:
+    description: Inspeciona jogador
+
+  warn:
+    description: Sistema de warns
+
+  logs:
+    description: Logs do servidor
+
+  fakejoin:
+    description: Fake join
+
+  fakeleave:
+    description: Fake leave
+
+  tpall:
+    description: Teleporta todos
+
+  blackout:
+    description: Tempestade
+
+  signal:
+    description: Marca local
+
+  tracker:
+    description: Rastreador
+
+  alerts:
+    description: Alertas staff
